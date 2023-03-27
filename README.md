@@ -1,13 +1,13 @@
 # gnome-colorer
 [![ESLint](https://github.com/nanashi-1/gnome-colorer/actions/workflows/eslint.yml/badge.svg)](https://github.com/nanashi-1/gnome-colorer/actions/workflows/eslint.yml)
 
+Changes the accent color of the GNOME shell, GTK3 and GTK4.
+
 ## Screenshots
 
 ![Shell Screenshot 1](screenshots/shell1.png)
 ![Shell Screenshot 2](screenshots/shell2.png)
 ![GTK Screenshot](screenshots/gtk.png)
-
-Changes the accent color of the GNOME shell, GTK3 and GTK4.
 
 ## Usage
 
