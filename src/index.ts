@@ -6,8 +6,7 @@ import moveShellTheme from './shell-theme-mover';
 import installGNOMEShell from './gnome-shell-installer';
 import applyShellTheme from './shell-theme-applier';
 import fetchGNOMEShellTheme from './gnome-shell-theme-fetcher';
-import changeGTKColor from './gtk-color-changer';
-import installGTKTheme from './gtk-theme-installer';
+import installGTKColor from './gtk-color-changer';
 
 const args = parseArguments();
 
@@ -24,8 +23,7 @@ function processShellTheme() {
 }
 
 function processGtKTheme() {
-	changeGTKColor(args.color);
-	installGTKTheme(args.gtk4, args.gtk3);
+	installGTKColor(args.color, args.gtk4, args.gtk3);
 
 	console.log('GTK theme installation complete');
 }
