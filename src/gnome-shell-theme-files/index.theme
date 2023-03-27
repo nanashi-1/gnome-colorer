@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=gnome-colorer
+Comment=Automatically generated gnome-shell theme by gnome-colorer
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=gnome-colorer
+MetacityTheme=gnome-colorer
