@@ -1,4 +1,5 @@
 # gnome-colorer
+[![ESLint](https://github.com/nanashi-1/gnome-colorer/actions/workflows/eslint.yml/badge.svg)](https://github.com/nanashi-1/gnome-colorer/actions/workflows/eslint.yml)
 
 Changes the accent color of the GNOME shell, GTK3 and GTK4.
 
