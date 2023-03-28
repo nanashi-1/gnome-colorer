@@ -17,12 +17,6 @@ To use gnome-colorer, you need to have the following dependencies installed:
     ts-node: a TypeScript execution environment for node.
     @types/node: TypeScript definitions for Node.js.
 
-You can install these dependencies using npm:
-
-```sh
-npm install --save-dev typescript ts-node @types/node
-```
-
 ## Usage
 
 To change the accent color of your GNOME shell and GTK theme, you can use the install.sh script:
