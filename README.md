@@ -1,7 +1,7 @@
 # gnome-colorer
 [![ESLint](https://github.com/nanashi-1/gnome-colorer/actions/workflows/eslint.yml/badge.svg)](https://github.com/nanashi-1/gnome-colorer/actions/workflows/eslint.yml)
 
-Changes the accent color of the GNOME shell, GTK3 and GTK4.
+`gnome-colorer` is a tool that changes the accent color of the GNOME shell, GTK3, and GTK4.
 
 ## Screenshots
 
@@ -9,15 +9,23 @@ Changes the accent color of the GNOME shell, GTK3 and GTK4.
 ![Shell Screenshot 2](screenshots/shell2.png)
 ![GTK Screenshot](screenshots/gtk.png)
 
+## Dependencies
+
+To use gnome-colorer, you need to have the following dependencies installed:
+
+    typescript: a superset of JavaScript that adds static type definitions.
+    ts-node: a TypeScript execution environment for node.
+    @types/node: TypeScript definitions for Node.js.
+
 ## Usage
 
-Change accent color to red.
+To change the accent color of your GNOME shell and GTK theme, you can use the install.sh script:
 
 ```sh
-./install.sh -c red
+./install.sh -c red # Change the accent color to red
 ```
 
-You can also use hexadecimal colors.
+You can also use hexadecimal color codes:
 
 ```sh
 ./install.sh -c '#ff5733'
