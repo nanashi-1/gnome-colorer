@@ -4,7 +4,7 @@
   "description": "changes the color of the GNOME shell, GTK3 and GTK4",
   "main": "build/index.js",
   "scripts": {
-    "run": "node build/index.js"
+    "compile": "npm exec -- tsc -p tsconfig.json"
   },
   "keywords": [
     "GNOME",
@@ -22,6 +22,7 @@
     "@types/sass": "^1.45.0",
     "argparse": "^2.0.1",
     "fs": "^0.0.1-security",
+    "node": "^19.8.1",
     "os": "^0.1.2",
     "prettier": "^2.8.7",
     "sass": "^1.60.0",

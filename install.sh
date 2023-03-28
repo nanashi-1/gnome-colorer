@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo 'Compiling script...'
-tsc -p tsconfig.json
+npm run compile
 
-node build/index.js $@
+npm exec -- node build/index.js $@
