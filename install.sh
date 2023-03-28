@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo 'Compiling script...'
-tsc -p tsconfig.json
+[ ! -d node_modules ] && echo 'Installing dependencies...' && npm install
 
-node build/index.js $@
+[ ! -d build ] && echo 'Compiling typescript' && npm run compile
+
+npm exec -- node build/index.js $@
