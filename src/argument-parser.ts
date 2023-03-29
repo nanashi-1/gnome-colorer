@@ -17,6 +17,10 @@ export default function parseArguments() {
 		help: 'color to replace the default color of gnome (default: #3584e4)',
 		default: '#3584e4',
 	});
+	parser.add_argument('-f', '--fg-color', {
+		help: 'color to replace the default foreground color of gnome (default: #ffffff)',
+		default: '#ffffff',
+	});
 	parser.add_argument('-s', '--shell-theme-name', {
 		help: 'name of the output GNOME shell theme (default: gnome-colorer)',
 		default: 'gnome-colorer',

@@ -12,7 +12,7 @@ const args = parseArguments();
 
 function processShellTheme() {
 	fetchGNOMEShellTheme();
-	changeShellColor(args.color);
+	changeShellColor(args.color, args.fg_color);
 	renderShellSASS();
 	writeShellMetadata(args.shell_theme_name);
 	moveShellTheme();
