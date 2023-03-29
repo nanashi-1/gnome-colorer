@@ -18,6 +18,11 @@
   @include card(flat);
   padding: $base_padding * 1.5;
 
+  // fixes visibility issue when using selected foreground color that is too dark
+  &:insensitive {
+    color: transparentize(#ffffff, .5);
+  }
+
   // weekday label
   .day-label {
     @extend %heading;
